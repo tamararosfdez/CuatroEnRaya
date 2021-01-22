@@ -6,7 +6,7 @@ public class Tablero {
 	private Casilla[][] casillas;
 	public static final int FILAS = 6;
 	public static final int COLUMNAS = 7;
-	public static final int FICHAS_IGUALES_CONSECUTIVAS_NECESARIAS = 4; 
+	public static final int fichasConsecutivas = 4; 
 
 	public Tablero() {
 		casillas = new Casilla[FILAS][COLUMNAS];
@@ -103,10 +103,10 @@ public class Tablero {
 		return fila;
 	}
 	
-	private boolean objetivoAlcanzado(int fichasConsecutivas)
+	private boolean objetivoAlcanzado(int fichasConsecutiva)
 	{
 		boolean resultado = false;
-		if (fichasConsecutivas>=FICHAS_IGUALES_CONSECUTIVAS_NECESARIAS)
+		if (fichasConsecutiva>=fichasConsecutivas)
 		{
 			resultado = true;
 		}
