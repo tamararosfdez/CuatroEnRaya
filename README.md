@@ -1,3 +1,5 @@
+Tamara Rosa Fernandez
+
 Se trata de realizar un programa en java que simule el juego de las cuatro en raya.
 
 En dicho juego, juegan dos jugadores. El primer jugador elige el color de las fichas y empieza el juego. En cada turno el jugador elegirá una columna que no esté llena en la que depositar su ficha. La ficha caerá por el tablero vertical hasta posarse en el fondo o encima de la última ficha que haya colocada. Gana el juego el jugador que consiga alinear cuatro fichas, de su color bien sea en horizontal, vertical o diagonal. El programa detectará la jugada ganadora e informará del nombre del ganador.
